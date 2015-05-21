@@ -11,7 +11,7 @@ module.exports = {
 	},
 	production: {
 		rootPath: rootPath,
-		db: 'mongodb://abakde:multivision@ds049641.mongolab.com:49641/multivision',
+		db: 'mongolab:connection:string',
 		port: process.env.PORT || 80
 	}
 }
